@@ -5,8 +5,8 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load trained model and feature columns
-model = joblib.load("model/house_price_model.joblib")
-model_columns = joblib.load("model/model_columns.joblib")  # keep your current spelling
+model = joblib.load("model/house_price_model.pkl")
+model_columns = joblib.load("model/model_columns.pkl")  # keep your current spelling
 
 @app.route("/")
 def home():
