@@ -1,0 +1,76 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #b39ddb, #7e57c2);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for form */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+/* Form inputs */
+input {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    padding: 12px 25px;
+    border: none;
+    background: #673ab7; /* deep purple */
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5e35b1; /* darker purple on hover */
+}
+
+/* Prediction result */
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #ffeb3b; /* bright yellow to stand out */
+}
+
+/* Footer styling */
+footer {
+    margin-top: 50px;
+    padding: 15px 0;
+    background: rgba(0,0,0,0.2);
+    font-size: 0.9em;
+    color: #e0e0e0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
